@@ -1,0 +1,21 @@
+.homework07-wrapper {
+padding: 40px;
+text-align: center;
+}
+.cards {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.card-item {
+border: 2px solid #ddd;
+border-radius: 12px;
+overflow: hidden;
+width: 300px;
+}
+img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
