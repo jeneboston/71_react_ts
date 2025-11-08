@@ -1,13 +1,13 @@
-import ".styles.css"
-import type { InputProps } from "./types"
+import { Container, Label, Field } from "./styles";
+import type { InputProps } from "./types";
 
-function Input ({name, type="text", id, label, placeholder} : InputProps) {
-    return (
-        <div className="input-container">
-            {label && <label htmlFor="id">{label}</label>}
-            <input name={name} type={type} id={id}  placeholder={placeholder}  />
-        </div>
-    )
+function Input({ name, type = "text", id, label, placeholder }: InputProps) {
+  return (
+    <Container>
+      {label && <Label htmlFor={id}>{label}</Label>}
+      <Field name={name} type={type} id={id} placeholder={placeholder} />
+    </Container>
+  );
 }
 
 export default Input;

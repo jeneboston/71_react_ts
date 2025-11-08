@@ -1,4 +1,4 @@
-import "./styles.css";
+import { Wrapper, Title, Species, Img } from "./styles";
 
 interface AnimalCardProps {
   animalName: string;
@@ -8,11 +8,11 @@ interface AnimalCardProps {
 
 export function AnimalCard({ animalName, animalSpecies, animalImg }: AnimalCardProps) {
   return (
-    <div className="animal-card-wrapper">
-      <h3>{animalName}</h3>
-      <div>{animalSpecies}</div>
-      <img src={animalImg}/>
-    </div>
+    <Wrapper>
+      <Title>{animalName}</Title>
+      <Species>{animalSpecies}</Species>
+      <Img src={animalImg} alt={animalName} />
+    </Wrapper>
   );
 }
 
