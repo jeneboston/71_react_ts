@@ -11,7 +11,7 @@ export function AnimalCard({ animalName, animalSpecies, animalImg }: AnimalCardP
     <div className="animal-card-wrapper">
       <h3>{animalName}</h3>
       <div>{animalSpecies}</div>
-      <img src={animalImg}/>
+      <img src={animalImg} alt={animalName}/>
     </div>
   );
 }
