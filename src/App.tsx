@@ -1,23 +1,11 @@
-// Импорты лекций
-// import Lesson06 from "./lessons/Lesson06/Lesson06";
-// import Lesson07 from "lessons/Lesson07/Lesson07";
-
-// import Homework07 from "homeworks/Homework07/Homework07";
-import Lesson08 from "lessons/Lesson08/Lesson08";
-
-// Импорты домашних работ
+import Lesson09 from "lessons/Lesson09/Lesson09";
+import GlobalStyles from "styles/GlobalStyles";
 
 function App() {
   return (
     <>
-      {/* Лекция 6 - TypeScript */}
-      {/* <Lesson06 /> */}
-
-      {/* Лекция 7 - TypeScript: object types */}
-      {/* <Lesson07 /> */}
-
-      {/* <Homework07 /> */}
-      <Lesson08 />
+      <GlobalStyles />
+      <Lesson09 />
     </>
   );
 }
