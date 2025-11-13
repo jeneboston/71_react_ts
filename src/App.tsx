@@ -1,4 +1,4 @@
-import Lesson11 from "lessons/Lesson11/Lesson11";
+import Lesson12 from "lessons/Lesson12/Lesson12";
 import GlobalStyles from "styles/GlobalStyles";
 // import Homework11 from "homeworks/Homework11/Homework11"
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <GlobalStyles />
       {/* <Homework10 /> */}
-      <Lesson11 />
+      <Lesson12 />
     </>
   );
 }
