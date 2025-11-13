@@ -1,13 +1,13 @@
-import Lesson12 from "lessons/Lesson12/Lesson12";
+// import Lesson12 from "lessons/Lesson12/Lesson12";
 import GlobalStyles from "styles/GlobalStyles";
-// import Homework11 from "homeworks/Homework11/Homework11"
+import Homework12 from "homeworks/Homework12/Homework12"
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      {/* <Homework10 /> */}
-      <Lesson12 />
+      <Homework12 />
+      {/* <Lesson12 /> */}
     </>
   );
 }
